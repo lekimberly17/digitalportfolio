@@ -1,0 +1,54 @@
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Merriweather:wght@300&display=swap" rel="stylesheet">);
+
+.top-container {
+background-color:beige;
+position:relative;
+padding-top:20px;
+padding-bottom: 20px;
+
+}
+
+body {
+    margin:0;
+    text-align:center;
+    font-family: 'Alfa Slab One', cursive;
+    font-size:20px;
+    color:black;
+}
+
+.middle-container {
+    margin: auto;
+    text-align:center;
+    font-family: 'Merriweather', serif;
+    color:black;
+    padding-top:20px;
+}
+
+.profile {
+    width:400px;
+    height:300px;
+    border-radius: 50%;
+
+}
+
+.introduction {
+    width:600px;
+    margin: auto;
+    text-align:center;
+    font-family: 'Merriweather', serif;
+    color:black;
+    padding-top:20px;
+}
+
+.bottom-container {
+    margin:0;
+    text-align:center;
+    font-family: 'Merriweather', serif;
+    color:black;
+    padding-top:20px;
+}
+
+
+
