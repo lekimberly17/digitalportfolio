@@ -20,20 +20,71 @@
     <div class="headings"><h1>Projects</h1></div>
 
     <div class="project">
-        <p class="project"><a class="project" href = "https://j-kimbrough.github.io/Lava-Java/index.html" target = "_self">GitHub Webpage Project</a></p>
-        <p>Built our own webpage using CSS and HTML</p>
+        <p class="project"><a class="project" href = "https://j-kimbrough.github.io/Lava-Java/index.html" target = "_self"><i>GitHub Webpage Project</i></a></p>
+        <p>.  .  .  .  .  .  .  .  Built our own webpage using CSS and HTML</p>
     </div>
 
     <div class="project">
-        <p class="project"><a class="project" href = "https://lekimberly17.github.io/portal-it116-wn21/" target = "_self">Portal</a></p>
-        <p>Created a Portal to show all our projects in IT116</p>
+        <p class="project"><a class="project" href = "https://lekimberly17.github.io/portal-it116-wn21/" target = "_self"><i>Portal</i></a></p>
+        <p>.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .   .  .  .  .  . Created a Portal to show all our projects in IT116</p>
     </div>
-    </div>  
+    </div>
+    
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="images/IMG_9369.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="images/IMG_9365.jpg" style="width:100%">
+        </div>
+        
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+        </div>
+
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+            </script>
 
     <div class="bottom-container">
         <a class="footer-link" href = "https://www.linkedin.com/in/222-kimberly-le/" target = "_self">LinkedIn</a>
         <a class="footer-link" href = "https://github.com/lekimberly17" target = "_self">GitHub</a>
-        <p class=signature">© 2021 Kimberly Le</p>
+        <p class="signature">© 2021 Kimberly Le</p>
     </div>
 
 </body>
