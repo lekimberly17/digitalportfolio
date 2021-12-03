@@ -38,7 +38,7 @@ body {
 }
 
 .introduction {
-    width:40%;
+    width:50%;
     margin: auto;
     text-align:center;
     font-family: 'Merriweather', serif;
@@ -99,6 +99,7 @@ body {
     animation-duration: 1.5s;
   }
 
+   /* Footer */
   .footer-link {
     color:white;
     margin:10px 20px;
