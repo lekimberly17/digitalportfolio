@@ -48,11 +48,11 @@ body {
 }
 
 .bottom-container {
-    background-color:#8d6e63;
+    background-color:#352315;
     margin:0;
     text-align:center;
     font-family: 'Merriweather', serif;
-    color:black;
+    color:whitesmoke;
     padding-top:20px;
 }
 
@@ -79,7 +79,7 @@ body {
   margin: auto;
   text-align:center;
   font-family: 'Merriweather', serif;
-  color:black;
+  color:#9A784F;
   text-decoration: none;
 }
 
@@ -127,7 +127,7 @@ body {
   }
   
   .active, .dot:hover {
-    background-color: #717171;
+    background-color: #352315;
   }
   
   /* Fading animation */
