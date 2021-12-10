@@ -93,7 +93,7 @@ body {
   width: 33.33%;
   padding: 10px;
   padding-left: 10%;
-  height: 200px;
+  height: 20%;
   font-family: 'Merriweather', serif;
   color:black;
   text-align:left;
@@ -141,7 +141,7 @@ body {
    /* Footer */
   .footer-link {
     color:white;
-    margin:10px 20px;
+    margin:1%;
     font-family: 'Merriweather', serif;
     text-decoration: none;
 
